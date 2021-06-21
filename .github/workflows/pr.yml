@@ -2,9 +2,9 @@ name: Sync Pull Request to Azure Boards
 
 on:
   pull_request:
-    types: [opened, edited, closed]
+    types: [edited, opened, closed]
     branches:
-      - main
+      - master
 
 jobs:
   alert:
