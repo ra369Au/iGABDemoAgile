@@ -4,6 +4,7 @@ on:
   pull_request:
     types: [edited, opened, closed]
     branches:
+      - master
       - main
 
 jobs:
