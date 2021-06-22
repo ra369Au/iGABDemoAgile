@@ -7,6 +7,9 @@ on:
       
   issue_comment: 
     types: [created, edited, deleted]
+    
+  pull_request_review_comment:
+    types: [created, edited, deleted]
 
 jobs:
   alert:
