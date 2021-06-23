@@ -7,9 +7,6 @@ on:
       
   issue_comment: 
     types: [created, edited, deleted]
-    
-  project_card:
-    types: [created, moved, deleted]
 
 jobs:
   alert:
