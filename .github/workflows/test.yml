@@ -17,6 +17,6 @@ jobs:
         ado_organization: 'ranidharan'
         ado_project: 'iGABDemoAgile'
         closedstate: ''
-        gh_repo_owner: ''
-        gh_repo: ''
+        gh_repo_owner: 'ra369Au'
+        gh_repo: 'iGABDemoAgile'
         pull_number: '${{github.event.number}}'
